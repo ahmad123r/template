@@ -644,6 +644,8 @@ progress {
   margin-left: calc(var(--bs-gutter-x) * -.5);
 }
 .row > * {
+  display: flex;
+  justify-content: space-evenly;
   flex-shrink: 0;
   width: 100%;
   max-width: 100%;
@@ -10896,16 +10898,27 @@ p {
   display: block;
   font-size: 1rem;
   font-weight: 800;
+width: 350px;
+}
+.requests{
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 20px;
+}
+.requests input{
+  background-color: #e6a756;
+  color:#333 ;
 }
 .section-heading .section-heading-lower {
   display: block;
   font-size: 3rem;
   font-weight: 100;
+  
 }
 
 .bg-faded {
-  background-image:linear-gradient(#1b2229,white)
-;}
+  background-color: #f6e1c5;
+}
 
 .btn-xl {
   font-weight: 700;
